@@ -96,11 +96,12 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf; 
+  color: #404bbf;
   padding: 24px 0;
   position: relative;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list-it::after{
+.list-it::after {
   content: "";
   position: absolute;
   left: 0;
@@ -108,7 +109,6 @@ img {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .addss {
   font-style: normal;
@@ -125,6 +125,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* кнопка */
