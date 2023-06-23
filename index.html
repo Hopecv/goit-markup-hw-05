@@ -59,7 +59,9 @@
             Effective Solutions <br />
             for Your Business
           </h1>
-          <button class="button-first" type="button">Order Service</button>
+          <button class="button-first" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -410,14 +412,15 @@
       </div>
     </footer>
     <!-- modal window -->
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-btn">
+        <button type="button" class="modal-btn" data-modal-close>
           <svg class="modal-svg" width="8" height="8">
             <use href="./images/icons.svg#icon-cross"></use>
           </svg>
         </button>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
